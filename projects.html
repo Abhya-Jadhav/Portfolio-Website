@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Projects - Abhishek Jadhav</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .nav-link:hover {
+            color: #f0f0f0 !important;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-outline-primary {
+            color: #007bff;
+            border-color: #007bff;
+        }
+        .btn:hover, .btn:focus {
+            opacity: 0.8;
+        }
+        .hero-section {
+            background: linear-gradient(45deg, #5f6368, #4f5b62);
+            color: white;
+            padding: 100px 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+        }
+        /* Card Hover Effect */
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+        .card-body {
+            text-align: center;
+        }
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        .card-text {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Abhishek Jadhav</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="skills.html">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="internships.html">Internship</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="display-4 mb-4 text-center" style="margin-top: 40px;">Projects</h2>
+
+            <!-- Row for Projects -->
+            <div class="row">
+
+                <!-- Project 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- <img src="images/header_image1.jpg" class="card-img-top" alt="Project 1"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">CSVK Website</h5>
+                            <p class="card-text">Developed a dynamic website for Chatrapati Shri Shivaji Vidyalaya, Kolpewadi. Provides information and updates for students, teachers, and parents.</p>
+                            <p class="card-text"><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP</p>
+                            <p style="color: #007bff;">Already Live Project(Hosted)</p>
+                            <a href="https://github.com/username/project1" class="btn btn-primary" target="_blank">View on GitHub</a>
+                            <a href="https://csvk.in/" target="_blank" class="btn btn-outline-primary">View Live</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <!-- <img src="images/logo nirmal computer.png" class="card-img-top" alt="Project 2"> -->
+                        <div class="card-body">
+                            <h5 class="card-title">Nirmal Computers Website</h5>
+                            <p class="card-text">Working on Nirmal Computers project, a website to showcase IT services.
+                                and it is helpful to find the hands on practical experience courses.
+                            </p>
+                            <p class="card-text"><strong>Technologies:</strong> HTML, CSS, JavaScript, PHP</p>
+                            <p style="color: #007bff;">On Going Live Project</p>
+                            <a href="https://github.com/username/project2" class="btn btn-primary" target="_blank">View on GitHub</a>
+                            <a href="#" target="_blank" class="btn btn-outline-primary">View Live (Ongoing)</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div> <!-- End of Project Row -->
+        </div> <!-- End of Container -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p>&copy; 2025 Abhishek Jadhav. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

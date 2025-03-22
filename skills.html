@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Skills - Abhishek Jadhav</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .nav-link:hover {
+            color: #f0f0f0 !important;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        .btn-outline-primary {
+            color: #007bff;
+            border-color: #007bff;
+        }
+        .btn:hover, .btn:focus {
+            opacity: 0.8;
+        }
+        .hero-section {
+            background: linear-gradient(45deg, #5f6368, #4f5b62);
+            color: white;
+            padding: 100px 0;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .skills-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    .skill-item {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        display: flex;
+        align-items: center;
+    }
+    .skill-item i {
+        margin-right: 10px;
+        font-size: 24px;
+        color: #2ecc71;
+    }
+    .skill-item:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Fade-in effect on page load */
+    .skills-list .skill-item {
+        opacity: 0;
+        animation: fadeIn 1s forwards;
+    }
+
+    .skills-list .skill-item:nth-child(1) {
+        animation-delay: 0.2s;
+    }
+    .skills-list .skill-item:nth-child(2) {
+        animation-delay: 0.4s;
+    }
+    .skills-list .skill-item:nth-child(3) {
+        animation-delay: 0.6s;
+    }
+    .skills-list .skill-item:nth-child(4) {
+        animation-delay: 0.8s;
+    }
+    .skills-list .skill-item:nth-child(5) {
+        animation-delay: 1s;
+    }
+
+    @keyframes fadeIn {
+        to {
+            opacity: 1;
+        }
+    }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Abhishek Jadhav</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="internships.html">Internship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <!-- Skills Section -->
+    <section class="py-5 bg-light" id="skills">
+        <div class="container">
+            <h2 class="display-4 mb-4 text-center" style="margin-top: 40px;">Skills</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h3 class="text-center mb-3">Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item" data-skill="HTML/CSS"><i class="fas fa-code"></i> HTML/CSS</li>
+                        <li class="skill-item" data-skill="JavaScript"><i class="fab fa-js"></i> JavaScript</li>
+                        <li class="skill-item" data-skill="React"><i class="fab fa-react"></i> Bootstrap</li>
+                        <li class="skill-item" data-skill="PHP"><i class="fab fa-node"></i> PHP</li>
+                        <li class="skill-item" data-skill="Java"><i class="fab fa-git"></i> Java</li>
+                        <li class="skill-item" data-skill="Git"><i class="fab fa-git"></i> Git</li>
+                        <li class="skill-item" data-skill="Hostinger(Website Builder and Hosting)"><i class="fab fa-git"></i> Hostinger(Website Builder and Hosting)</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h3 class="text-center mb-3">Non-Technical Skills</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item" data-skill="Team Collaboration"><i class="fas fa-users"></i> Team Collaboration</li>
+                        <li class="skill-item" data-skill="Problem Solving"><i class="fas fa-lightbulb"></i> Problem Solving</li>
+                        <li class="skill-item" data-skill="Communication"><i class="fas fa-comment-alt"></i> Communication</li>
+                        <li class="skill-item" data-skill="Leadership"><i class="fas fa-chess-king"></i> Leadership</li>
+                        <li class="skill-item" data-skill="Time Bounding"><i class="fas fa-chess-king"></i> Time Bounding</li>
+                        <li class="skill-item" data-skill="Perfectionlist"><i class="fas fa-chess-king"></i> Perfectionlist</li>
+                        <li class="skill-item" data-skill="Situation-Awareness Skills"><i class="fas fa-chess-king"></i> Situation-Awareness Skills</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-auto">
+        <div class="container text-center">
+            <p>&copy; 2025 Abhishek Jadhav. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+           
