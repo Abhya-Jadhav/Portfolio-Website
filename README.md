@@ -33,11 +33,11 @@ The portfolio website presents an overview of Abhishek Jadhav's skills, projects
 ## Installation
 1. Clone the repository:
 ```bash
-    git clone https://github.com/username/portfolio.git
+   gh repo clone Abhya-Jadhav/Portfolio-Website
 ```
 2. Navigate to the project directory:
 ```bash
-    cd portfolio
+    cd Portfolio-Website
 ```
 3. Open the `index.html` file in your browser to view the website.
 
